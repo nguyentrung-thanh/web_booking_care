@@ -1,0 +1,118 @@
+.user-container {
+    padding: 0 20px;
+}
+
+.users-table {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#customers {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+td,
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    position: relative;
+    /* Thuộc tính cực kỳ quan trọng để giữ thanh resizer */
+}
+
+/* Giao diện cho thanh kéo dãn cột */
+.resizer {
+    display: inline-block;
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: col-resize;
+    z-index: 1;
+    touch-action: none;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.3);
+        /* Sáng lên khi di chuột vào */
+    }
+}
+
+.btn-edit {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: orange;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent !important;
+        color: orange !important;
+    }
+}
+
+.btn-delete {
+    width: 50px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: red;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: transparent !important;
+        color: red !important;
+    }
+}
+
+.modal-user-container {
+    .modal-user-body {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+
+        .input-container {
+            display: flex;
+            flex-direction: column;
+            width: 48%;
+
+            &.max-width-input {
+                width: 100%;
+            }
+
+            input {
+                border-radius: 3px;
+                border: 1px solid grey;
+                height: 30px;
+                outline: none;
+                padding: 0 6px;
+            }
+        }
+    }
+}

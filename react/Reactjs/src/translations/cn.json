@@ -1,0 +1,140 @@
+{
+    "home-header": {
+        "speciality": "专科",
+        "searchdoctor": "按专科查找医生",
+        "health-facility": "医疗机构",
+        "select-room": "选择医院诊所",
+        "doctor": "医生",
+        "fee-planning": "体检套餐",
+        "general-health-check": "全面健康检查",
+        "support": "支持"
+    },
+    "banner": {
+        "title1": "医疗平台",
+        "title2": "全方位健康护理",
+        "search": "查找看病专科",
+        "child1": "专科门诊",
+        "child2": "远程医疗",
+        "child3": "综合体检",
+        "child4": "医学检验",
+        "child5": "心理健康"
+    },
+    "common": {
+        "add": "添加",
+        "edit": "编辑",
+        "delete": "删除",
+        "decentralize": "权限分配",
+        "close": "关闭",
+        "save": "保存",
+        "refresh": "刷新",
+        "accept": "接受",
+        "confirm": "确认",
+        "confirm-this-task": "您确定要执行此操作吗？",
+        "fail-to-load-data": "加载数据失败",
+        "unknown-error": "发生未知错误",
+        "internal-server-error": "连接错误",
+        "bad-request": "无效请求",
+        "forbiden-request": "传入的信息无效",
+        "fail-to-load-all-code": "加载 allcode 数据失败",
+        "sum": "总计",
+        "date-range-invalid": "时间范围无效"
+    },
+    "login": {
+        "login": "登录 ",
+        "username": "用户名",
+        "password": "密码",
+        "userpass-wrong": "用户名或密码错误！"
+    },
+    "menu": {
+        "system": {
+            "header": "系统",
+            "system-administrator": {
+                "header": "系统管理",
+                "user-manage": "用户管理",
+                "product-manage": "套餐管理",
+                "register-package-group-or-account": "为群组/账号注册服务套餐"
+            },
+            "system-parameter": {
+                "header": "系统参数"
+            }
+        }
+    },
+    "system": {
+        "user-manage": {
+            "fail-to-load-fouser": "加载用户列表失败",
+            "user-id": "用户编号",
+            "usertype": "用户类型",
+            "username": "用户名",
+            "fullname": "全名",
+            "mobile": "手机号",
+            "email": "电子邮箱",
+            "status": "状态",
+            "add-user": "添加用户",
+            "edit-user": "修改用户信息",
+            "password": "密码",
+            "retype-password": "确认密码",
+            "add-user-success": "添加用户成功",
+            "edit-user-success": "修改用户信息成功",
+            "add-user-fail": "添加用户失败",
+            "edit-user-fail": "修改用户信息失败",
+            "del-user-success": "删除用户成功",
+            "del-user-fail": "删除用户失败",
+            "invalid-input": {
+                "username": "请输入用户名",
+                "fullname": "请输入全名",
+                "password": "请输入密码"
+            },
+            "sure-delete-user": "您确定要删除该用户吗？"
+        },
+        "product-manage": {
+            "fail-to-load-foprtype": "加载套餐列表失败",
+            "prid": "套餐编号",
+            "prname": "套餐名称",
+            "prtype": "套餐类型",
+            "status": "状态",
+            "description": "说明",
+            "effective-date": "生效日期",
+            "expiration-date": "失效日期",
+            "add-product": "添加套餐",
+            "add-product-success": "添加套餐成功",
+            "add-product-fail": "添加套餐失败",
+            "edit-product": "修改套餐信息",
+            "package-decentralize": "功能权限分配",
+            "edit-product-success": "修改套餐信息成功",
+            "edit-product-fail": "修改套餐信息失败",
+            "delete-product-success": "删除套餐成功",
+            "delete-product-fail": "删除套餐失败",
+            "invalid-input": {
+                "prid": "请输入套餐编号",
+                "prname": "请输入套餐名称"
+            },
+            "fail-to-load-decentralize-info": "加载功能权限信息失败",
+            "save-decentralize-success": "保存功能权限成功",
+            "save-decentralize-fail": "保存功能权限失败",
+            "sure-delete-package": "您确定要删除该套餐吗？"
+        },
+        "register-package-group-or-acc": {
+            "assign-service-package-to-customer": "为客户分配服务套餐",
+            "package-name": "套餐名称",
+            "assign-type": "分配类型",
+            "cust-acc-group": "客户群组/账号",
+            "effective-date": "生效日期",
+            "expiration-date": "失效日期",
+            "assign": "分配",
+            "manage-assign-groups": "管理群组分配",
+            "group-cust-acc-name": "客户群组/账号名称",
+            "del-assign": "取消分配",
+            "fail-to-load-manage-assign-groups-list": "加载群组分配管理信息失败",
+            "invalid-selected": {
+                "currentfoProduct": "所选套餐无效",
+                "currentAssignType": "分配类型无效",
+                "currentFoUser": "客户群组/账号无效"
+            },
+            "assign-service-package-to-customer-success": "为客户分配服务套餐成功",
+            "assign-service-package-to-customer-fail": "为客户分配服务套餐失败",
+            "remove-assign-success": "取消客户服务套餐分配成功",
+            "remove-assign-fail": "取消客户服务套餐分配失败",
+            "sure-delete-assign": "您确定要取消该客户的服务套餐分配吗？"
+        }
+    }
+}

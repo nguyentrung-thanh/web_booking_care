@@ -1,0 +1,140 @@
+{
+    "home-header": {
+        "speciality": "専門科",
+        "searchdoctor": "専門科から医師を探す",
+        "health-facility": "医療施設",
+        "select-room": "病院・クリニックを選択",
+        "doctor": "医師",
+        "fee-planning": "健康診断プラン",
+        "general-health-check": "総合健康診断",
+        "support": "サポート"
+    },
+    "banner": {
+        "title1": "医療プラットフォーム",
+        "title2": "包括的なヘルスケア",
+        "search": "診療科目を検索",
+        "child1": "専門外来",
+        "child2": "オンライン診療",
+        "child3": "総合健診",
+        "child4": "医学検査",
+        "child5": "メンタルヘルス"
+    },
+    "common": {
+        "add": "追加",
+        "edit": "編集",
+        "delete": "削除",
+        "decentralize": "権限管理",
+        "close": "閉じる",
+        "save": "保存",
+        "refresh": "更新",
+        "accept": "承認",
+        "confirm": "確認",
+        "confirm-this-task": "この操作を実行してもよろしいですか？",
+        "fail-to-load-data": "データの読み込みに失敗しました",
+        "unknown-error": "エラーが発生しました",
+        "internal-server-error": "接続エラー",
+        "bad-request": "不正なリクエスト",
+        "forbiden-request": "入力された情報が無効です",
+        "fail-to-load-all-code": "allcodeデータの読み込みに失敗しました",
+        "sum": "合計",
+        "date-range-invalid": "有効期間が無効です"
+    },
+    "login": {
+        "login": "ログイン ",
+        "username": "ユーザー名",
+        "password": "パスワード",
+        "userpass-wrong": "ユーザー名またはパスワードが正しくありません！"
+    },
+    "menu": {
+        "system": {
+            "header": "システム",
+            "system-administrator": {
+                "header": "システム管理",
+                "user-manage": "ユーザー管理",
+                "product-manage": "プラン管理",
+                "register-package-group-or-account": "グループ/アカウントへのサービスプラン登録"
+            },
+            "system-parameter": {
+                "header": "システムパラメータ"
+            }
+        }
+    },
+    "system": {
+        "user-manage": {
+            "fail-to-load-fouser": "ユーザーリストの読み込みに失敗しました",
+            "user-id": "ユーザーID",
+            "usertype": "ユーザータイプ",
+            "username": "ユーザー名",
+            "fullname": "氏名",
+            "mobile": "電話番号",
+            "email": "メールアドレス",
+            "status": "ステータス",
+            "add-user": "ユーザーを追加",
+            "edit-user": "ユーザー情報を編集",
+            "password": "パスワード",
+            "retype-password": "パスワード（確認）",
+            "add-user-success": "ユーザーの追加に成功しました",
+            "edit-user-success": "ユーザー情報の変更に成功しました",
+            "add-user-fail": "ユーザーの追加に失敗しました",
+            "edit-user-fail": "ユーザー情報の変更に失敗しました",
+            "del-user-success": "ユーザーの削除に成功しました",
+            "del-user-fail": "ユーザーの削除に失敗しました",
+            "invalid-input": {
+                "username": "ユーザー名を入力してください",
+                "fullname": "氏名を入力してください",
+                "password": "パスワードを入力してください"
+            },
+            "sure-delete-user": "このユーザーを削除してもよろしいですか？"
+        },
+        "product-manage": {
+            "fail-to-load-foprtype": "プランリストの読み込みに失敗しました",
+            "prid": "プランID",
+            "prname": "プラン名",
+            "prtype": "プランタイプ",
+            "status": "ステータス",
+            "description": "説明",
+            "effective-date": "有効開始日",
+            "expiration-date": "有効終了日",
+            "add-product": "プランを追加",
+            "add-product-success": "プランの追加に成功しました",
+            "add-product-fail": "プランの追加に失敗しました",
+            "edit-product": "プラン情報を編集",
+            "package-decentralize": "機能権限の設定",
+            "edit-product-success": "プラン情報の変更に成功しました",
+            "edit-product-fail": "プラン情報の変更に失敗しました",
+            "delete-product-success": "プランの削除に成功しました",
+            "delete-product-fail": "プランの削除に失敗しました",
+            "invalid-input": {
+                "prid": "プランIDを入力してください",
+                "prname": "プラン名を入力してください"
+            },
+            "fail-to-load-decentralize-info": "権限情報の読み込みに失敗しました",
+            "save-decentralize-success": "権限の保存に成功しました",
+            "save-decentralize-fail": "権限の保存に失敗しました",
+            "sure-delete-package": "このプランを削除してもよろしいですか？"
+        },
+        "register-package-group-or-acc": {
+            "assign-service-package-to-customer": "顧客へのサービスプラン割り当て",
+            "package-name": "プラン名",
+            "assign-type": "割り当てタイプ",
+            "cust-acc-group": "顧客グループ/アカウント",
+            "effective-date": "有効開始日",
+            "expiration-date": "有効終了日",
+            "assign": "割り当て",
+            "manage-assign-groups": "グループ割り当て管理",
+            "group-cust-acc-name": "顧客グループ/アカウント名",
+            "del-assign": "割り当て解除",
+            "fail-to-load-manage-assign-groups-list": "グループ割り当て管理情報の読み込みに失敗しました",
+            "invalid-selected": {
+                "currentfoProduct": "選択されたプランが無効です",
+                "currentAssignType": "割り当てタイプが無効です",
+                "currentFoUser": "顧客グループ/アカウントが無効です"
+            },
+            "assign-service-package-to-customer-success": "顧客へのサービスプラン割り当てに成功しました",
+            "assign-service-package-to-customer-fail": "顧客へのサービスプラン割り当てに失敗しました",
+            "remove-assign-success": "顧客のサービスプラン割り当て解除に成功しました",
+            "remove-assign-fail": "顧客のサービスプラン割り当て解除に失敗しました",
+            "sure-delete-assign": "この顧客のサービスプラン割り当てを解除してもよろしいですか？"
+        }
+    }
+}

@@ -1,0 +1,223 @@
+.section-specialty {
+    height: 330px;
+
+    background: #f5f5f5;
+
+    border: 1px solid red;
+
+    padding: 0 40px;
+
+    /* Tạo khoảng trống hai bên để đặt nút mũi tên không bị lẹm */
+
+    position: relative;
+
+    box-sizing: border-box;
+
+
+
+    .section-container {
+        margin: 0 100px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+        .section-header {
+            display: flex;
+            height: 60px;
+            margin: 30 px;
+            justify-content: space-between;
+            align-items: center;
+
+
+            // border: 1px solid green;
+            span {
+                margin: 0 10px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #49bce2;
+            }
+
+            .show-content {
+                font-weight: bold;
+                font-size: 15px;
+                background: #49bce2;
+                color: white;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                padding: 6px 16px;
+
+                &:hover {
+
+                    background: #196a86;
+
+                }
+            }
+        }
+
+        .section-body {
+            // border: 1px solid black;
+
+            .slick-slide {
+
+                padding: 0 10px;
+
+                /* Tạo khoảng hở giữa các item slide */
+
+                box-sizing: border-box;
+
+            }
+
+
+
+            .section-customize {
+
+                .bg-image {
+                    background: url('../../../assets/special/co-xuong-khop.jpg');
+                    height: 280px;
+                    width: 100%;
+                    background-position: center center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-color: #eee;
+                }
+
+
+
+            }
+
+        }
+
+
+
+        /* Định vị lại 2 nút mũi tên cho nổi lên và nằm đúng giữa hai bên mép khung giống trong video */
+
+        .slick-prev {
+
+            // left: -50px !important;
+
+            position: absolute;
+
+            top: 50% !important;
+
+            transform: translateY(-50%) !important;
+
+            z-index: 10;
+
+            width: 44px;
+
+            height: 48px;
+
+            background: rgba(0, 0, 0, 0.5) !important;
+
+            // border-radius: 50%;
+
+            display: flex !important;
+
+            align-items: center;
+
+            justify-content: center;
+
+
+
+            &:hover {
+
+                background: rgba(0, 0, 0, 0.8) !important;
+
+            }
+
+
+
+            &::before {
+
+                font-size: 20px;
+
+                color: white;
+
+                opacity: 1;
+
+            }
+
+        }
+
+
+
+        .slick-next {
+
+            position: absolute;
+
+            top: 50% !important;
+
+            transform: translateY(-50%) !important;
+
+            z-index: 10;
+
+            width: 44px;
+
+            height: 48px;
+
+            background: rgba(137, 130, 130, 0.5) !important;
+
+            // border-radius: 50%;
+
+            display: flex !important;
+
+            align-items: center;
+
+            justify-content: center;
+
+
+
+            &:hover {
+
+                background: rgba(0, 0, 0, 0.8) !important;
+
+            }
+
+
+
+            &::before {
+
+                font-size: 20px;
+
+                color: white;
+
+                opacity: 1;
+
+            }
+
+        }
+
+
+
+        .slick-prev {
+
+            left: -5px !important; // Nằm sát mép trái bên trong khung padding
+
+        }
+
+
+
+        .slick-next {
+
+            right: -7px !important; // Nằm sát mép phải bên trong khung padding
+
+        }
+
+
+
+        .slick-prev.slick-disabled,
+
+        .slick-next.slick-disabled {
+
+            opacity: 0 !important; // Làm cho nút mờ tịt đi (hoặc display: none !important nếu muốn ẩn hẳn)
+
+            pointer-events: none !important; // Vô hiệu hóa luôn để không bấm nhầm được nữa
+
+            cursor: default;
+
+        }
+
+
+    }
+}
